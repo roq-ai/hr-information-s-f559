@@ -1,0 +1,1702 @@
+[
+  {
+    "employee": [
+      {
+        "id": "f7b2fd2b-d603-4cc2-8b53-2c3edb5d4b2f",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-09T23:19:53.489Z",
+        "updated_at": "2023-08-09T18:54:37.843Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "df912194-981f-480f-a386-0280c9beb7e1",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-10T00:03:52.554Z",
+        "updated_at": "2023-08-10T01:37:48.763Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "94104c6e-dd85-4a14-ad8c-dafc600c5d48",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-09T17:42:42.858Z",
+        "updated_at": "2023-08-09T19:55:13.176Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6c2358f1-2bfc-4720-a96c-b29e6d1edac3",
+        "first_name": "Matthew",
+        "last_name": "Brown",
+        "created_at": "2023-08-09T20:26:09.337Z",
+        "updated_at": "2023-08-10T07:16:06.101Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f7798db4-c06c-41dd-bf5d-6bbe5ecc838c",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-09T22:01:24.320Z",
+        "updated_at": "2023-08-09T23:16:05.753Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "1ceae723-ce06-4f20-95f6-9aca404e6ec9",
+        "start_date": "2023-08-10T07:10:00.154Z",
+        "end_date": "2023-08-09T21:08:03.194Z",
+        "created_at": "2023-08-10T02:25:27.762Z",
+        "updated_at": "2023-08-09T14:57:21.266Z",
+        "employee_id": "f7b2fd2b-d603-4cc2-8b53-2c3edb5d4b2f"
+      },
+      {
+        "id": "88bff3fd-36a2-4dcc-b5a8-e02126dc5257",
+        "start_date": "2023-08-10T09:05:04.498Z",
+        "end_date": "2023-08-10T09:42:33.675Z",
+        "created_at": "2023-08-10T02:54:37.907Z",
+        "updated_at": "2023-08-09T22:28:58.684Z",
+        "employee_id": "6c2358f1-2bfc-4720-a96c-b29e6d1edac3"
+      },
+      {
+        "id": "b1dadcc0-1e44-4452-9793-9bc4afe8e62f",
+        "start_date": "2023-08-09T18:59:29.870Z",
+        "end_date": "2023-08-10T09:08:49.526Z",
+        "created_at": "2023-08-10T04:04:10.313Z",
+        "updated_at": "2023-08-09T13:57:15.901Z",
+        "employee_id": "6c2358f1-2bfc-4720-a96c-b29e6d1edac3"
+      },
+      {
+        "id": "0f891deb-4ba3-4236-9d78-7759e0849838",
+        "start_date": "2023-08-09T18:00:47.648Z",
+        "end_date": "2023-08-10T06:45:20.167Z",
+        "created_at": "2023-08-09T23:24:28.199Z",
+        "updated_at": "2023-08-09T12:31:07.120Z",
+        "employee_id": "f7798db4-c06c-41dd-bf5d-6bbe5ecc838c"
+      },
+      {
+        "id": "f52576e9-6d75-48cf-bc8a-d4dcf90ac39b",
+        "start_date": "2023-08-10T05:32:00.732Z",
+        "end_date": "2023-08-10T05:29:26.440Z",
+        "created_at": "2023-08-10T06:25:29.554Z",
+        "updated_at": "2023-08-09T22:06:12.966Z",
+        "employee_id": "f7b2fd2b-d603-4cc2-8b53-2c3edb5d4b2f"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "5fb113cb-92db-4d7c-bbcb-a35028b666f7",
+        "salary": 56023,
+        "created_at": "2023-08-10T09:14:37.641Z",
+        "updated_at": "2023-08-10T04:33:55.889Z",
+        "employee_id": "f7b2fd2b-d603-4cc2-8b53-2c3edb5d4b2f"
+      },
+      {
+        "id": "d090f3fd-5ab8-41fe-b999-bc0602276b71",
+        "salary": 55308,
+        "created_at": "2023-08-10T05:10:03.235Z",
+        "updated_at": "2023-08-09T12:57:12.613Z",
+        "employee_id": "f7b2fd2b-d603-4cc2-8b53-2c3edb5d4b2f"
+      },
+      {
+        "id": "1ffe4d7d-a08b-42e3-87d7-853dea0d834c",
+        "salary": 38317,
+        "created_at": "2023-08-10T09:38:40.491Z",
+        "updated_at": "2023-08-10T04:00:45.014Z",
+        "employee_id": "94104c6e-dd85-4a14-ad8c-dafc600c5d48"
+      },
+      {
+        "id": "031582ea-8994-433f-92a1-c40d4380044c",
+        "salary": 92478,
+        "created_at": "2023-08-09T15:05:48.060Z",
+        "updated_at": "2023-08-09T17:18:06.138Z",
+        "employee_id": "6c2358f1-2bfc-4720-a96c-b29e6d1edac3"
+      },
+      {
+        "id": "c16ab877-66ba-44a2-9ec6-4cfb6256944c",
+        "salary": 20041,
+        "created_at": "2023-08-10T01:47:13.268Z",
+        "updated_at": "2023-08-10T10:31:20.250Z",
+        "employee_id": "6c2358f1-2bfc-4720-a96c-b29e6d1edac3"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f6cfd919-cfd6-4d38-89f9-b99d6d2e539b",
+        "email": "Alene_Glover65@hotmail.com",
+        "firstName": "Lucy",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41756311",
+        "tenantId": null
+      },
+      {
+        "reference": "af84eb19-cade-4126-9ef2-9a9a58fe2779",
+        "email": "Talia81@gmail.com",
+        "firstName": "Jarvis",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41807611",
+        "tenantId": null
+      },
+      {
+        "reference": "19a35ea3-6548-46f3-af63-e4757a5167c3",
+        "email": "Josianne.Ratke56@hotmail.com",
+        "firstName": "Erica",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94309181",
+        "tenantId": null
+      },
+      {
+        "reference": "bada9748-5577-465c-92f3-e40346baa7cf",
+        "email": "Major.Labadie31@hotmail.com",
+        "firstName": "Matt",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71747004",
+        "tenantId": null
+      },
+      {
+        "reference": "bfaff8da-f58f-4715-813d-31cb38db863d",
+        "email": "Terry.Sporer84@hotmail.com",
+        "firstName": "Adela",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/325.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "1ebfcabb-be3d-4542-979c-2eeea2d59d50",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-09T23:12:26.064Z",
+        "updated_at": "2023-08-09T20:31:23.023Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d5044cea-74af-4b05-9a8f-9155f9714342",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-09T20:08:13.361Z",
+        "updated_at": "2023-08-09T19:16:29.357Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "90fb29ee-5756-45bb-b479-75e3d8c6166a",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-10T02:22:30.483Z",
+        "updated_at": "2023-08-09T19:03:13.297Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a0c42eca-bceb-494f-98aa-2cf52c51ef3f",
+        "first_name": "James",
+        "last_name": "Brown",
+        "created_at": "2023-08-10T10:14:48.771Z",
+        "updated_at": "2023-08-10T08:50:42.052Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3e7e80ed-8aac-46ad-9c92-7fb184860a00",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-10T09:03:10.868Z",
+        "updated_at": "2023-08-09T23:54:58.897Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "aa8c95de-9950-4b3e-a403-9a6e3c1861af",
+        "start_date": "2023-08-10T00:52:08.062Z",
+        "end_date": "2023-08-10T08:07:24.372Z",
+        "created_at": "2023-08-10T11:10:05.050Z",
+        "updated_at": "2023-08-09T16:40:39.257Z",
+        "employee_id": "90fb29ee-5756-45bb-b479-75e3d8c6166a"
+      },
+      {
+        "id": "ade4dcef-34b5-4d6a-a47c-5bd94de907e7",
+        "start_date": "2023-08-10T00:19:57.165Z",
+        "end_date": "2023-08-10T04:23:04.250Z",
+        "created_at": "2023-08-09T13:11:34.944Z",
+        "updated_at": "2023-08-09T15:29:07.555Z",
+        "employee_id": "90fb29ee-5756-45bb-b479-75e3d8c6166a"
+      },
+      {
+        "id": "15c22a1f-b4a4-4856-b076-d193e0c7590b",
+        "start_date": "2023-08-09T21:06:22.653Z",
+        "end_date": "2023-08-10T04:23:12.438Z",
+        "created_at": "2023-08-09T21:04:18.966Z",
+        "updated_at": "2023-08-09T20:01:24.644Z",
+        "employee_id": "90fb29ee-5756-45bb-b479-75e3d8c6166a"
+      },
+      {
+        "id": "3ce08a8c-ec04-495b-89ab-b283dbcffdea",
+        "start_date": "2023-08-10T07:12:55.700Z",
+        "end_date": "2023-08-09T20:01:47.357Z",
+        "created_at": "2023-08-09T20:58:43.860Z",
+        "updated_at": "2023-08-10T10:14:33.971Z",
+        "employee_id": "a0c42eca-bceb-494f-98aa-2cf52c51ef3f"
+      },
+      {
+        "id": "9ea2b704-acb0-42fa-9d80-44aa6d0f471a",
+        "start_date": "2023-08-09T13:25:13.245Z",
+        "end_date": "2023-08-10T10:13:02.900Z",
+        "created_at": "2023-08-09T23:53:20.198Z",
+        "updated_at": "2023-08-10T03:35:51.360Z",
+        "employee_id": "90fb29ee-5756-45bb-b479-75e3d8c6166a"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "1077690b-dbeb-4395-b771-e45fcb8453a2",
+        "salary": 46941,
+        "created_at": "2023-08-09T13:06:50.602Z",
+        "updated_at": "2023-08-10T09:17:47.355Z",
+        "employee_id": "3e7e80ed-8aac-46ad-9c92-7fb184860a00"
+      },
+      {
+        "id": "0b3faf40-ffb2-4dec-bf53-75be95ceb1ab",
+        "salary": 59094,
+        "created_at": "2023-08-10T05:28:47.462Z",
+        "updated_at": "2023-08-09T23:12:12.280Z",
+        "employee_id": "3e7e80ed-8aac-46ad-9c92-7fb184860a00"
+      },
+      {
+        "id": "be34d7b5-2b16-442c-8239-2731d7ffa3c2",
+        "salary": 10770,
+        "created_at": "2023-08-10T05:26:59.516Z",
+        "updated_at": "2023-08-09T19:23:51.896Z",
+        "employee_id": "90fb29ee-5756-45bb-b479-75e3d8c6166a"
+      },
+      {
+        "id": "15670307-5421-46f9-8e2e-8790dc0a11d6",
+        "salary": 14360,
+        "created_at": "2023-08-10T09:52:00.810Z",
+        "updated_at": "2023-08-10T10:40:25.571Z",
+        "employee_id": "90fb29ee-5756-45bb-b479-75e3d8c6166a"
+      },
+      {
+        "id": "4a51f7ea-bc34-4bc7-9bf7-04707d159f43",
+        "salary": 86545,
+        "created_at": "2023-08-09T18:00:47.493Z",
+        "updated_at": "2023-08-10T10:41:12.527Z",
+        "employee_id": "90fb29ee-5756-45bb-b479-75e3d8c6166a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e7a7e515-9ec2-4d3c-bcba-9a79ff33a5c0",
+        "email": "Erika97@gmail.com",
+        "firstName": "Candace",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97122157",
+        "tenantId": null
+      },
+      {
+        "reference": "49cdf834-4f80-4ed0-a723-a60f70203904",
+        "email": "Mertie.Lynch87@yahoo.com",
+        "firstName": "Josefa",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55549301",
+        "tenantId": null
+      },
+      {
+        "reference": "f439e5f8-7db7-4963-b5eb-cbf5b3a6dfba",
+        "email": "Morgan_Muller59@yahoo.com",
+        "firstName": "Glen",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18523851",
+        "tenantId": null
+      },
+      {
+        "reference": "a68b4078-df9a-4051-85ed-539b9994da1a",
+        "email": "Mitchel.Keebler91@hotmail.com",
+        "firstName": "Liam",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/966.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "472f7b36-3b8e-4f6a-a890-0b8b8a16faeb",
+        "email": "Jerod66@hotmail.com",
+        "firstName": "Cesar",
+        "lastName": "Torp-Rau",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1610287",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "8a8eece9-4ee5-4ac8-b2ce-6b099bcd9df8",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-10T04:11:27.556Z",
+        "updated_at": "2023-08-09T23:55:52.744Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "70ad63ed-7a28-424c-adb4-b38c0d97d8c5",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-10T01:36:24.861Z",
+        "updated_at": "2023-08-10T11:22:29.098Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c7650726-872a-4811-9faa-2e8777b88ed4",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-09T18:11:27.022Z",
+        "updated_at": "2023-08-10T03:36:45.903Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6add666c-ebf4-46e3-a222-0a3af30e2fb3",
+        "first_name": "James",
+        "last_name": "Brown",
+        "created_at": "2023-08-09T23:04:12.232Z",
+        "updated_at": "2023-08-10T08:32:28.121Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "675ab5f8-be05-4115-872b-fd100f976585",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-10T04:46:47.319Z",
+        "updated_at": "2023-08-10T11:37:06.058Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "3a0ad0cf-8ba0-4bbe-8953-bfd395d84cc5",
+        "start_date": "2023-08-10T08:50:05.687Z",
+        "end_date": "2023-08-10T01:04:38.145Z",
+        "created_at": "2023-08-10T03:32:25.640Z",
+        "updated_at": "2023-08-09T16:40:20.862Z",
+        "employee_id": "c7650726-872a-4811-9faa-2e8777b88ed4"
+      },
+      {
+        "id": "88f74ede-e5a0-4f26-ab05-e7a80188029e",
+        "start_date": "2023-08-09T15:56:03.106Z",
+        "end_date": "2023-08-10T11:02:53.949Z",
+        "created_at": "2023-08-09T22:19:09.551Z",
+        "updated_at": "2023-08-10T11:50:16.166Z",
+        "employee_id": "70ad63ed-7a28-424c-adb4-b38c0d97d8c5"
+      },
+      {
+        "id": "9ecb7dfd-9ee5-4b59-8a32-334b45f63e30",
+        "start_date": "2023-08-10T00:00:47.721Z",
+        "end_date": "2023-08-09T19:09:04.318Z",
+        "created_at": "2023-08-10T11:46:00.002Z",
+        "updated_at": "2023-08-10T02:03:29.578Z",
+        "employee_id": "675ab5f8-be05-4115-872b-fd100f976585"
+      },
+      {
+        "id": "570c833a-13a2-4b67-809a-e5bc7bd62ec2",
+        "start_date": "2023-08-09T21:46:29.505Z",
+        "end_date": "2023-08-10T01:19:57.544Z",
+        "created_at": "2023-08-09T18:38:19.713Z",
+        "updated_at": "2023-08-10T01:00:41.604Z",
+        "employee_id": "c7650726-872a-4811-9faa-2e8777b88ed4"
+      },
+      {
+        "id": "4d19ebb2-3def-49df-9b34-4d752d58dca9",
+        "start_date": "2023-08-10T05:25:34.841Z",
+        "end_date": "2023-08-10T00:18:16.822Z",
+        "created_at": "2023-08-10T07:24:19.347Z",
+        "updated_at": "2023-08-09T21:35:02.242Z",
+        "employee_id": "c7650726-872a-4811-9faa-2e8777b88ed4"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "4eb68e44-bc7d-4ebf-8172-e5e7e44b32a3",
+        "salary": 28864,
+        "created_at": "2023-08-09T20:25:17.285Z",
+        "updated_at": "2023-08-10T03:05:17.773Z",
+        "employee_id": "70ad63ed-7a28-424c-adb4-b38c0d97d8c5"
+      },
+      {
+        "id": "44b2436f-22c1-4fae-8c77-b8c1c2dd2673",
+        "salary": 47514,
+        "created_at": "2023-08-10T03:55:22.369Z",
+        "updated_at": "2023-08-10T10:46:19.778Z",
+        "employee_id": "c7650726-872a-4811-9faa-2e8777b88ed4"
+      },
+      {
+        "id": "8afa94a4-f7e9-46df-b7f4-841def3d653f",
+        "salary": 31880,
+        "created_at": "2023-08-09T14:15:35.289Z",
+        "updated_at": "2023-08-09T16:13:41.638Z",
+        "employee_id": "8a8eece9-4ee5-4ac8-b2ce-6b099bcd9df8"
+      },
+      {
+        "id": "a1d002c2-fe7d-41e6-8977-798b7b93a6e3",
+        "salary": 38684,
+        "created_at": "2023-08-09T18:08:29.306Z",
+        "updated_at": "2023-08-10T00:39:27.460Z",
+        "employee_id": "8a8eece9-4ee5-4ac8-b2ce-6b099bcd9df8"
+      },
+      {
+        "id": "6033e371-4688-428f-802a-454774d969ae",
+        "salary": 55015,
+        "created_at": "2023-08-10T04:13:20.085Z",
+        "updated_at": "2023-08-10T01:58:09.647Z",
+        "employee_id": "70ad63ed-7a28-424c-adb4-b38c0d97d8c5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "270f635f-c053-4ed8-b9d0-8c2de951d6b4",
+        "email": "Miller58@gmail.com",
+        "firstName": "Reinhold",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/594.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b0325264-2ddf-4f2f-b963-765cb397ac37",
+        "email": "Shanon.Lesch36@gmail.com",
+        "firstName": "Mylene",
+        "lastName": "Wiegand-Christiansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/122.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a5b3c304-c6a9-45a8-8a24-c77261fb09e3",
+        "email": "Jailyn_Schumm@yahoo.com",
+        "firstName": "Matteo",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1247.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "73658733-8df2-4d8e-881e-a721d89801d9",
+        "email": "Dallin_Strosin@gmail.com",
+        "firstName": "Heath",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93890467",
+        "tenantId": null
+      },
+      {
+        "reference": "680e2a29-6790-40f7-8794-1f49f6429640",
+        "email": "Keira_Yundt@gmail.com",
+        "firstName": "Vickie",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11088074",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "0889ac91-9934-43e1-9643-ca12717d673b",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-10T05:35:14.840Z",
+        "updated_at": "2023-08-10T10:46:47.834Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0ab335c9-95ed-4f08-847d-019b81b722a9",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-09T16:04:08.349Z",
+        "updated_at": "2023-08-09T22:12:13.626Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cfbd7b3c-ab49-4dfa-90fe-d7fbfa272bff",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-09T15:44:28.710Z",
+        "updated_at": "2023-08-10T04:16:27.430Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "96c1fd79-eb90-437d-87b1-9dabcc432b21",
+        "first_name": "James",
+        "last_name": "Brown",
+        "created_at": "2023-08-09T21:19:16.222Z",
+        "updated_at": "2023-08-09T14:03:40.321Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "88ea5e24-363f-48b5-a8b8-737fd8f343a4",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-09T13:37:24.819Z",
+        "updated_at": "2023-08-10T02:47:56.548Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "7fa536cf-a6b0-42ed-a1d4-f2a6e2b914c4",
+        "start_date": "2023-08-10T07:50:09.430Z",
+        "end_date": "2023-08-10T06:42:29.804Z",
+        "created_at": "2023-08-10T02:01:29.825Z",
+        "updated_at": "2023-08-10T07:52:13.714Z",
+        "employee_id": "0889ac91-9934-43e1-9643-ca12717d673b"
+      },
+      {
+        "id": "4395b0e4-c7d0-49de-b69b-05ea3055ee1e",
+        "start_date": "2023-08-09T20:28:15.377Z",
+        "end_date": "2023-08-09T21:52:59.326Z",
+        "created_at": "2023-08-09T13:21:45.292Z",
+        "updated_at": "2023-08-10T03:22:55.150Z",
+        "employee_id": "96c1fd79-eb90-437d-87b1-9dabcc432b21"
+      },
+      {
+        "id": "96059fd8-5dc3-4377-9952-28378dc0b578",
+        "start_date": "2023-08-09T21:13:56.301Z",
+        "end_date": "2023-08-10T08:42:29.864Z",
+        "created_at": "2023-08-09T19:46:30.097Z",
+        "updated_at": "2023-08-09T14:41:08.907Z",
+        "employee_id": "0889ac91-9934-43e1-9643-ca12717d673b"
+      },
+      {
+        "id": "de0fe2a0-9cb8-43f6-8d77-2b300c3b2188",
+        "start_date": "2023-08-09T17:35:36.230Z",
+        "end_date": "2023-08-09T14:34:15.911Z",
+        "created_at": "2023-08-09T18:51:27.611Z",
+        "updated_at": "2023-08-10T01:37:35.990Z",
+        "employee_id": "0ab335c9-95ed-4f08-847d-019b81b722a9"
+      },
+      {
+        "id": "e4071b25-4b18-4e87-bebd-77d289fe3e37",
+        "start_date": "2023-08-09T14:45:30.762Z",
+        "end_date": "2023-08-09T23:14:05.999Z",
+        "created_at": "2023-08-10T00:55:47.573Z",
+        "updated_at": "2023-08-10T03:57:50.472Z",
+        "employee_id": "96c1fd79-eb90-437d-87b1-9dabcc432b21"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "c9010f6e-b354-422e-a525-cbd74e482538",
+        "salary": 57267,
+        "created_at": "2023-08-10T05:57:01.603Z",
+        "updated_at": "2023-08-10T03:59:54.643Z",
+        "employee_id": "88ea5e24-363f-48b5-a8b8-737fd8f343a4"
+      },
+      {
+        "id": "320fc380-b89a-4628-b1c2-9904b74e4d5d",
+        "salary": 25789,
+        "created_at": "2023-08-09T19:24:05.366Z",
+        "updated_at": "2023-08-10T05:54:55.673Z",
+        "employee_id": "0889ac91-9934-43e1-9643-ca12717d673b"
+      },
+      {
+        "id": "88cb5516-be43-4535-a92d-413e26ea6ea5",
+        "salary": 33465,
+        "created_at": "2023-08-09T13:10:14.147Z",
+        "updated_at": "2023-08-09T20:57:21.855Z",
+        "employee_id": "88ea5e24-363f-48b5-a8b8-737fd8f343a4"
+      },
+      {
+        "id": "7fa5915c-9fd0-4337-8eba-a1cddf1bff6b",
+        "salary": 26829,
+        "created_at": "2023-08-09T20:48:20.635Z",
+        "updated_at": "2023-08-10T03:17:53.139Z",
+        "employee_id": "88ea5e24-363f-48b5-a8b8-737fd8f343a4"
+      },
+      {
+        "id": "a7e7f852-d31b-4323-b841-c9b00a36b2bb",
+        "salary": 3056,
+        "created_at": "2023-08-09T19:43:51.001Z",
+        "updated_at": "2023-08-09T20:13:47.979Z",
+        "employee_id": "cfbd7b3c-ab49-4dfa-90fe-d7fbfa272bff"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "08ff02e4-8a41-49c5-9b3a-91b745402941",
+        "email": "Richie.Miller@gmail.com",
+        "firstName": "Darwin",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1060.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fb565bf3-1a9f-4ab6-b92f-6912f7f01f61",
+        "email": "Vanessa_Pfeffer@hotmail.com",
+        "firstName": "Reese",
+        "lastName": "Torphy-Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19158803",
+        "tenantId": null
+      },
+      {
+        "reference": "bd537f74-a247-4b30-aa55-028606c0fc4b",
+        "email": "Dominique_Balistreri@gmail.com",
+        "firstName": "Sydnie",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14151322",
+        "tenantId": null
+      },
+      {
+        "reference": "446602c3-680b-4893-9b5e-3fc3e8389519",
+        "email": "Vivienne_Prosacco39@hotmail.com",
+        "firstName": "Vincent",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49241998",
+        "tenantId": null
+      },
+      {
+        "reference": "906ba1cc-c179-4562-aab3-5c6c4cca8395",
+        "email": "Peyton44@hotmail.com",
+        "firstName": "Hardy",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/565.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "6132b5ed-f1a1-4c09-82fe-2bc526dece67",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-10T05:59:13.135Z",
+        "updated_at": "2023-08-10T04:40:39.612Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "60f46064-0a62-4eb7-9dfc-8345e13fee77",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-10T06:17:07.891Z",
+        "updated_at": "2023-08-10T03:32:50.993Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8e800833-2e3b-4151-8e31-7b2160ea9c0c",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-10T01:08:53.532Z",
+        "updated_at": "2023-08-10T01:10:26.505Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "90ff30a9-986d-4b15-9f56-0f4cbb8b760a",
+        "first_name": "Matthew",
+        "last_name": "Brown",
+        "created_at": "2023-08-10T07:18:26.431Z",
+        "updated_at": "2023-08-09T12:50:21.885Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6d3952d0-7e66-4b45-a418-95df79324919",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-09T14:41:13.697Z",
+        "updated_at": "2023-08-10T11:35:48.298Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "aa9ed329-dde5-4070-9f9c-50a1ba1d8acd",
+        "start_date": "2023-08-10T09:04:46.685Z",
+        "end_date": "2023-08-10T06:15:11.183Z",
+        "created_at": "2023-08-09T19:44:04.182Z",
+        "updated_at": "2023-08-10T11:10:29.603Z",
+        "employee_id": "60f46064-0a62-4eb7-9dfc-8345e13fee77"
+      },
+      {
+        "id": "0403edbb-de6a-474a-8dd1-c5e107f8a458",
+        "start_date": "2023-08-10T00:05:19.666Z",
+        "end_date": "2023-08-09T13:26:42.169Z",
+        "created_at": "2023-08-09T20:17:57.403Z",
+        "updated_at": "2023-08-09T21:38:45.120Z",
+        "employee_id": "8e800833-2e3b-4151-8e31-7b2160ea9c0c"
+      },
+      {
+        "id": "d0f5a42a-32a5-40c7-9f64-10b8515d2fd1",
+        "start_date": "2023-08-09T16:18:31.604Z",
+        "end_date": "2023-08-09T14:29:13.606Z",
+        "created_at": "2023-08-10T10:50:55.594Z",
+        "updated_at": "2023-08-10T03:33:19.143Z",
+        "employee_id": "6d3952d0-7e66-4b45-a418-95df79324919"
+      },
+      {
+        "id": "54a8093d-06ea-4e85-83da-2bf22b853bdb",
+        "start_date": "2023-08-09T20:26:05.366Z",
+        "end_date": "2023-08-09T13:33:34.903Z",
+        "created_at": "2023-08-09T14:07:18.267Z",
+        "updated_at": "2023-08-09T20:54:27.309Z",
+        "employee_id": "60f46064-0a62-4eb7-9dfc-8345e13fee77"
+      },
+      {
+        "id": "d6f6c11c-5a5a-48e8-91c2-442ced52c109",
+        "start_date": "2023-08-10T01:58:28.965Z",
+        "end_date": "2023-08-10T06:00:51.286Z",
+        "created_at": "2023-08-09T15:55:14.579Z",
+        "updated_at": "2023-08-09T16:56:23.932Z",
+        "employee_id": "6132b5ed-f1a1-4c09-82fe-2bc526dece67"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "2e0136c3-0d7b-4328-ba55-9499efa4131f",
+        "salary": 81517,
+        "created_at": "2023-08-09T17:38:26.386Z",
+        "updated_at": "2023-08-10T11:38:37.898Z",
+        "employee_id": "6d3952d0-7e66-4b45-a418-95df79324919"
+      },
+      {
+        "id": "97e8c7e9-9499-4189-bf8f-71536a119eee",
+        "salary": 31766,
+        "created_at": "2023-08-09T19:26:43.188Z",
+        "updated_at": "2023-08-10T05:39:17.687Z",
+        "employee_id": "8e800833-2e3b-4151-8e31-7b2160ea9c0c"
+      },
+      {
+        "id": "3172ac9f-60cc-46e3-8641-b2f196c55227",
+        "salary": 19334,
+        "created_at": "2023-08-09T16:48:49.771Z",
+        "updated_at": "2023-08-09T19:09:02.059Z",
+        "employee_id": "6d3952d0-7e66-4b45-a418-95df79324919"
+      },
+      {
+        "id": "03ada379-d7bf-4786-a51e-7d2268808160",
+        "salary": 37573,
+        "created_at": "2023-08-10T03:21:49.169Z",
+        "updated_at": "2023-08-09T17:05:35.118Z",
+        "employee_id": "8e800833-2e3b-4151-8e31-7b2160ea9c0c"
+      },
+      {
+        "id": "ecfc7b8e-5b95-48f2-8146-7016785cba12",
+        "salary": 7396,
+        "created_at": "2023-08-10T01:41:47.080Z",
+        "updated_at": "2023-08-09T18:57:16.178Z",
+        "employee_id": "6d3952d0-7e66-4b45-a418-95df79324919"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "24854be2-15d7-42f4-b366-ec03344b953a",
+        "email": "Emely_Bosco@gmail.com",
+        "firstName": "Ted",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/496.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "450cebd4-fc51-4d59-a1ea-8b72fadea22a",
+        "email": "Ezequiel89@hotmail.com",
+        "firstName": "Burley",
+        "lastName": "Gerlach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87763815",
+        "tenantId": null
+      },
+      {
+        "reference": "c355a2e3-f2de-45fb-9a12-7bf8694df1de",
+        "email": "Jeremie66@gmail.com",
+        "firstName": "Floyd",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87739651",
+        "tenantId": null
+      },
+      {
+        "reference": "2921173c-0c1a-4fe1-a07b-c1cb5ba615fb",
+        "email": "Neva_Kohler@hotmail.com",
+        "firstName": "Odell",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1001.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6a02bd6b-c6a6-48f8-9f8a-fa96979fbfac",
+        "email": "Cameron6@hotmail.com",
+        "firstName": "Wilber",
+        "lastName": "Gibson-Franecki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27928720",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "96ce4c85-4980-4225-bbbb-0bab17da1c35",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-09T21:20:36.654Z",
+        "updated_at": "2023-08-10T11:15:28.805Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9df1dbc2-a0fc-407f-a459-aee68b55317c",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-09T23:09:52.407Z",
+        "updated_at": "2023-08-10T03:47:18.009Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f80fb3cd-277f-48e4-8584-4f49e3ad71e5",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-09T13:45:09.408Z",
+        "updated_at": "2023-08-09T18:44:16.878Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4eafb79d-3363-4575-aca4-4e208fdce8f4",
+        "first_name": "James",
+        "last_name": "Brown",
+        "created_at": "2023-08-10T10:20:08.482Z",
+        "updated_at": "2023-08-10T07:20:51.653Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3330bbb8-9730-432b-989b-574f1782e50e",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-09T15:27:19.776Z",
+        "updated_at": "2023-08-10T04:55:13.275Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "27983711-a212-404e-84cf-5909b68e7c4c",
+        "start_date": "2023-08-10T02:47:03.604Z",
+        "end_date": "2023-08-09T13:26:50.151Z",
+        "created_at": "2023-08-09T21:00:22.947Z",
+        "updated_at": "2023-08-10T09:20:55.783Z",
+        "employee_id": "f80fb3cd-277f-48e4-8584-4f49e3ad71e5"
+      },
+      {
+        "id": "bba62eea-43c4-4cb9-8972-87f6c7f4affc",
+        "start_date": "2023-08-10T08:58:07.541Z",
+        "end_date": "2023-08-10T08:16:45.699Z",
+        "created_at": "2023-08-10T04:21:14.389Z",
+        "updated_at": "2023-08-10T05:22:16.087Z",
+        "employee_id": "9df1dbc2-a0fc-407f-a459-aee68b55317c"
+      },
+      {
+        "id": "fd5ae04b-e85b-4c9d-bba4-cd0fc23952b1",
+        "start_date": "2023-08-09T19:33:38.635Z",
+        "end_date": "2023-08-09T15:34:47.067Z",
+        "created_at": "2023-08-09T13:04:11.523Z",
+        "updated_at": "2023-08-10T04:46:04.464Z",
+        "employee_id": "4eafb79d-3363-4575-aca4-4e208fdce8f4"
+      },
+      {
+        "id": "2d1c3b0a-c8a8-4a3a-bcfb-9fc354f7deaa",
+        "start_date": "2023-08-10T08:02:46.112Z",
+        "end_date": "2023-08-09T23:03:19.234Z",
+        "created_at": "2023-08-10T00:36:24.849Z",
+        "updated_at": "2023-08-09T18:06:18.692Z",
+        "employee_id": "96ce4c85-4980-4225-bbbb-0bab17da1c35"
+      },
+      {
+        "id": "bb9e8077-a68b-48c0-96e0-d493d6bc0b48",
+        "start_date": "2023-08-10T03:54:52.513Z",
+        "end_date": "2023-08-10T01:18:54.236Z",
+        "created_at": "2023-08-09T14:03:25.144Z",
+        "updated_at": "2023-08-10T12:13:51.012Z",
+        "employee_id": "4eafb79d-3363-4575-aca4-4e208fdce8f4"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "3012bd03-770d-4b0a-8928-289089ac842a",
+        "salary": 20867,
+        "created_at": "2023-08-09T22:47:29.160Z",
+        "updated_at": "2023-08-09T14:35:20.446Z",
+        "employee_id": "3330bbb8-9730-432b-989b-574f1782e50e"
+      },
+      {
+        "id": "c850db9e-73f4-4b19-a0c6-218921476bc0",
+        "salary": 26984,
+        "created_at": "2023-08-09T17:04:38.380Z",
+        "updated_at": "2023-08-09T20:42:30.685Z",
+        "employee_id": "f80fb3cd-277f-48e4-8584-4f49e3ad71e5"
+      },
+      {
+        "id": "60a0217f-296c-48b4-adb6-ffe2d6c0531c",
+        "salary": 1400,
+        "created_at": "2023-08-09T14:21:16.349Z",
+        "updated_at": "2023-08-10T04:50:37.576Z",
+        "employee_id": "4eafb79d-3363-4575-aca4-4e208fdce8f4"
+      },
+      {
+        "id": "de427f15-84d6-4d8f-bf33-151e3d19e218",
+        "salary": 23417,
+        "created_at": "2023-08-10T07:51:29.985Z",
+        "updated_at": "2023-08-09T22:59:05.628Z",
+        "employee_id": "9df1dbc2-a0fc-407f-a459-aee68b55317c"
+      },
+      {
+        "id": "cd18edb7-17c2-45db-baa9-35b0568291af",
+        "salary": 32618,
+        "created_at": "2023-08-10T03:00:19.673Z",
+        "updated_at": "2023-08-09T14:01:49.072Z",
+        "employee_id": "4eafb79d-3363-4575-aca4-4e208fdce8f4"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "485ef106-acc4-47c1-91fd-9aeead7dde62",
+        "email": "Aurelia82@gmail.com",
+        "firstName": "Luis",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49756406",
+        "tenantId": null
+      },
+      {
+        "reference": "c953ceea-ed38-41e8-9667-2cef6751ea4f",
+        "email": "Rahsaan.Bogisich@gmail.com",
+        "firstName": "Winona",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68265800",
+        "tenantId": null
+      },
+      {
+        "reference": "a3ca1c1a-aedc-4717-96fc-6f43968e1f9b",
+        "email": "Eleonore_Jacobs@hotmail.com",
+        "firstName": "Brooks",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51755284",
+        "tenantId": null
+      },
+      {
+        "reference": "3cec1593-7a58-43de-9f47-7792908dc8af",
+        "email": "Dahlia_Bradtke57@yahoo.com",
+        "firstName": "Kurtis",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "93428a48-8f42-4819-8caa-fa6a54b57fbd",
+        "email": "Destin_Carter@gmail.com",
+        "firstName": "Harold",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/721.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "bef34d25-3550-4c1c-a74d-fb97ddc59e95",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-10T08:23:31.875Z",
+        "updated_at": "2023-08-10T01:47:50.527Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2adaf5bf-1c2c-4d7a-9144-82e8cd22e823",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-09T14:21:56.546Z",
+        "updated_at": "2023-08-09T19:53:44.158Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e24acc05-1bf0-42d5-b5b9-df6039017c83",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-10T11:25:59.374Z",
+        "updated_at": "2023-08-10T02:50:26.127Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "da62729f-a9f7-45f3-8973-f016243683fb",
+        "first_name": "James",
+        "last_name": "Brown",
+        "created_at": "2023-08-09T16:43:48.340Z",
+        "updated_at": "2023-08-09T23:52:29.371Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "711b8682-fc62-4dff-9c65-479f9ddf833f",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-10T03:57:22.362Z",
+        "updated_at": "2023-08-09T12:39:48.689Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "f34805bc-d49d-4b89-926d-10994455b7f4",
+        "start_date": "2023-08-10T08:41:27.652Z",
+        "end_date": "2023-08-09T22:22:06.215Z",
+        "created_at": "2023-08-10T02:54:25.450Z",
+        "updated_at": "2023-08-10T10:25:26.914Z",
+        "employee_id": "2adaf5bf-1c2c-4d7a-9144-82e8cd22e823"
+      },
+      {
+        "id": "53db8e29-824b-4b5c-90f3-a0d3edcb02b9",
+        "start_date": "2023-08-10T00:50:27.287Z",
+        "end_date": "2023-08-09T16:17:00.579Z",
+        "created_at": "2023-08-10T01:42:47.630Z",
+        "updated_at": "2023-08-10T08:04:37.915Z",
+        "employee_id": "711b8682-fc62-4dff-9c65-479f9ddf833f"
+      },
+      {
+        "id": "92ae7418-e396-48ef-9810-5b13926fb809",
+        "start_date": "2023-08-10T09:38:42.268Z",
+        "end_date": "2023-08-10T03:47:10.400Z",
+        "created_at": "2023-08-10T00:22:08.396Z",
+        "updated_at": "2023-08-10T10:35:42.005Z",
+        "employee_id": "da62729f-a9f7-45f3-8973-f016243683fb"
+      },
+      {
+        "id": "2ff7a826-7078-4e81-b54a-236f1b74d629",
+        "start_date": "2023-08-09T13:14:38.373Z",
+        "end_date": "2023-08-10T05:23:35.714Z",
+        "created_at": "2023-08-09T19:36:24.709Z",
+        "updated_at": "2023-08-09T13:57:11.196Z",
+        "employee_id": "da62729f-a9f7-45f3-8973-f016243683fb"
+      },
+      {
+        "id": "5854b50f-5cbd-4b67-9a45-1bdaa7f248b4",
+        "start_date": "2023-08-10T11:47:40.010Z",
+        "end_date": "2023-08-10T02:53:31.878Z",
+        "created_at": "2023-08-10T00:42:33.834Z",
+        "updated_at": "2023-08-09T23:05:31.613Z",
+        "employee_id": "711b8682-fc62-4dff-9c65-479f9ddf833f"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "e01388e5-aec9-47ec-81ad-e65ef49955dd",
+        "salary": 31329,
+        "created_at": "2023-08-10T05:04:11.158Z",
+        "updated_at": "2023-08-09T15:16:28.595Z",
+        "employee_id": "bef34d25-3550-4c1c-a74d-fb97ddc59e95"
+      },
+      {
+        "id": "4245cdea-705c-44e3-b520-ee3e285fd518",
+        "salary": 66343,
+        "created_at": "2023-08-10T06:42:41.353Z",
+        "updated_at": "2023-08-09T17:19:25.229Z",
+        "employee_id": "bef34d25-3550-4c1c-a74d-fb97ddc59e95"
+      },
+      {
+        "id": "64e296ed-a8a5-49a8-8f8b-1fd6ac1f8568",
+        "salary": 57603,
+        "created_at": "2023-08-10T09:42:09.668Z",
+        "updated_at": "2023-08-09T21:24:37.796Z",
+        "employee_id": "e24acc05-1bf0-42d5-b5b9-df6039017c83"
+      },
+      {
+        "id": "86c7e69c-dd96-47ec-afa6-4839749896e0",
+        "salary": 89970,
+        "created_at": "2023-08-09T12:27:46.829Z",
+        "updated_at": "2023-08-09T22:48:09.880Z",
+        "employee_id": "2adaf5bf-1c2c-4d7a-9144-82e8cd22e823"
+      },
+      {
+        "id": "2e7f9f44-6142-46d7-ad01-ee2b11c2a751",
+        "salary": 87756,
+        "created_at": "2023-08-09T20:50:13.683Z",
+        "updated_at": "2023-08-09T19:53:40.275Z",
+        "employee_id": "e24acc05-1bf0-42d5-b5b9-df6039017c83"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b2596725-0d9e-491a-a801-d107cb49a89c",
+        "email": "Ahmad.Hand@hotmail.com",
+        "firstName": "Kendall",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/59.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d98fc3e1-554e-4621-bd82-117accb7c397",
+        "email": "Lew52@yahoo.com",
+        "firstName": "Will",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/28.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7b641d39-1d9f-4448-b1e8-022dd3b7eaba",
+        "email": "Elvie71@yahoo.com",
+        "firstName": "Hertha",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1210.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8592199a-9811-443a-8b12-773c361eb544",
+        "email": "Lew_Dicki@gmail.com",
+        "firstName": "Maxime",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86615840",
+        "tenantId": null
+      },
+      {
+        "reference": "566320b5-88dc-4dd1-a8c1-ee05b2c19fe9",
+        "email": "Reagan_Weissnat@yahoo.com",
+        "firstName": "Albert",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9457941",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "cab825d6-ed54-4ec6-8b80-c828535e29d8",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-09T19:13:53.695Z",
+        "updated_at": "2023-08-09T23:57:05.508Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e1725699-4042-4fdd-99a6-2cc7b0dbe1c9",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-10T07:41:40.464Z",
+        "updated_at": "2023-08-09T12:32:12.640Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b61e8df5-6fac-4be5-b4c2-c17d4caa35ed",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-09T16:46:30.731Z",
+        "updated_at": "2023-08-09T21:58:12.915Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "310e14f2-c09d-4571-9e80-217e009e68b1",
+        "first_name": "Matthew",
+        "last_name": "Brown",
+        "created_at": "2023-08-09T21:52:17.406Z",
+        "updated_at": "2023-08-10T05:17:11.944Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fe79ab2c-16b2-4190-85ab-4fb572e4177e",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-10T10:39:24.577Z",
+        "updated_at": "2023-08-10T03:46:57.094Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "b87b4eb5-c58c-4994-bfd5-ae9819150a61",
+        "start_date": "2023-08-09T12:46:10.673Z",
+        "end_date": "2023-08-10T02:07:56.108Z",
+        "created_at": "2023-08-10T05:52:22.726Z",
+        "updated_at": "2023-08-10T06:51:30.093Z",
+        "employee_id": "cab825d6-ed54-4ec6-8b80-c828535e29d8"
+      },
+      {
+        "id": "663df670-31a8-493f-827a-46402d1d6f3f",
+        "start_date": "2023-08-10T11:12:49.461Z",
+        "end_date": "2023-08-09T20:06:31.371Z",
+        "created_at": "2023-08-10T01:33:35.940Z",
+        "updated_at": "2023-08-10T04:39:02.684Z",
+        "employee_id": "cab825d6-ed54-4ec6-8b80-c828535e29d8"
+      },
+      {
+        "id": "cf701bfd-52a3-40fb-9d04-6cd9dbeb9e6e",
+        "start_date": "2023-08-10T06:34:40.321Z",
+        "end_date": "2023-08-10T03:48:19.376Z",
+        "created_at": "2023-08-09T15:04:27.633Z",
+        "updated_at": "2023-08-10T11:57:54.529Z",
+        "employee_id": "310e14f2-c09d-4571-9e80-217e009e68b1"
+      },
+      {
+        "id": "c17e938c-3ab0-430d-9961-a703fd329e92",
+        "start_date": "2023-08-09T13:30:15.531Z",
+        "end_date": "2023-08-09T17:04:42.330Z",
+        "created_at": "2023-08-09T21:23:03.149Z",
+        "updated_at": "2023-08-10T09:20:32.600Z",
+        "employee_id": "b61e8df5-6fac-4be5-b4c2-c17d4caa35ed"
+      },
+      {
+        "id": "ac79e4f1-ff8f-42e3-8f9b-67b110433f55",
+        "start_date": "2023-08-10T10:56:56.952Z",
+        "end_date": "2023-08-10T06:12:13.707Z",
+        "created_at": "2023-08-09T17:51:39.545Z",
+        "updated_at": "2023-08-10T03:33:59.156Z",
+        "employee_id": "e1725699-4042-4fdd-99a6-2cc7b0dbe1c9"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "8e056c8d-24ca-4509-a1f6-088ef7d9e26a",
+        "salary": 20048,
+        "created_at": "2023-08-09T13:33:22.235Z",
+        "updated_at": "2023-08-10T06:16:32.667Z",
+        "employee_id": "fe79ab2c-16b2-4190-85ab-4fb572e4177e"
+      },
+      {
+        "id": "dffcce8c-0027-4a6a-8056-f53fd1215a9a",
+        "salary": 24258,
+        "created_at": "2023-08-09T17:34:32.790Z",
+        "updated_at": "2023-08-09T12:48:53.495Z",
+        "employee_id": "fe79ab2c-16b2-4190-85ab-4fb572e4177e"
+      },
+      {
+        "id": "9501ff09-a501-4156-b22c-b79def2bff08",
+        "salary": 92965,
+        "created_at": "2023-08-09T13:56:19.810Z",
+        "updated_at": "2023-08-09T15:01:14.002Z",
+        "employee_id": "fe79ab2c-16b2-4190-85ab-4fb572e4177e"
+      },
+      {
+        "id": "6700b736-e338-484f-b214-d23fc509e4e1",
+        "salary": 33114,
+        "created_at": "2023-08-09T23:28:08.931Z",
+        "updated_at": "2023-08-10T10:36:12.415Z",
+        "employee_id": "b61e8df5-6fac-4be5-b4c2-c17d4caa35ed"
+      },
+      {
+        "id": "c79be8c5-05c3-4fba-8e85-9870014275b1",
+        "salary": 15988,
+        "created_at": "2023-08-10T07:45:59.836Z",
+        "updated_at": "2023-08-10T11:23:15.169Z",
+        "employee_id": "e1725699-4042-4fdd-99a6-2cc7b0dbe1c9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c4fd2c47-2570-47b3-8b2e-b593bfeb85d7",
+        "email": "Winifred_Dietrich@gmail.com",
+        "firstName": "Rahsaan",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99121415",
+        "tenantId": null
+      },
+      {
+        "reference": "ada567fc-8649-4413-bbca-4a7df4ea8811",
+        "email": "Kayleigh.Satterfield74@yahoo.com",
+        "firstName": "Jan",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76142492",
+        "tenantId": null
+      },
+      {
+        "reference": "0ddd70dd-552d-4492-9477-23959f977c79",
+        "email": "Lawrence_Wilkinson24@gmail.com",
+        "firstName": "Keaton",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/773.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "640db5de-8d9a-4430-bffa-306b60d15783",
+        "email": "Kurt_Weissnat@hotmail.com",
+        "firstName": "Nikki",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1174.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "469dd59b-82b4-4c70-93ad-31a91c4ba686",
+        "email": "Mikayla.Kozey-Quitzon54@gmail.com",
+        "firstName": "Dayton",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91868386",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "fbec7bbf-5d1b-48cd-a7c6-6f38290e9b9e",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-10T12:11:43.289Z",
+        "updated_at": "2023-08-09T16:58:54.066Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f83b5114-04e3-49c1-86be-60e46bec5551",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-09T15:47:17.908Z",
+        "updated_at": "2023-08-10T03:41:57.381Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9ee53de9-460b-4510-9a7b-9f4d5bd97b23",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-09T21:45:46.880Z",
+        "updated_at": "2023-08-10T06:43:28.378Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "56d35af0-a160-4bec-b30d-ef18e76b64c5",
+        "first_name": "James",
+        "last_name": "Brown",
+        "created_at": "2023-08-09T12:59:23.334Z",
+        "updated_at": "2023-08-09T19:52:43.702Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2f4a2f3e-a637-463d-8f5f-557264ea466c",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-09T14:26:42.992Z",
+        "updated_at": "2023-08-09T22:23:35.035Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "df76e423-8058-4597-a302-bc4b98af0b90",
+        "start_date": "2023-08-10T03:33:13.593Z",
+        "end_date": "2023-08-09T16:40:17.487Z",
+        "created_at": "2023-08-10T10:37:33.434Z",
+        "updated_at": "2023-08-10T09:41:04.929Z",
+        "employee_id": "56d35af0-a160-4bec-b30d-ef18e76b64c5"
+      },
+      {
+        "id": "11d92da9-dc08-4861-879e-2cc48f43d420",
+        "start_date": "2023-08-09T20:10:58.810Z",
+        "end_date": "2023-08-10T11:55:44.908Z",
+        "created_at": "2023-08-10T09:48:34.173Z",
+        "updated_at": "2023-08-09T17:57:26.334Z",
+        "employee_id": "fbec7bbf-5d1b-48cd-a7c6-6f38290e9b9e"
+      },
+      {
+        "id": "2ba065cd-8ca0-4101-9ecd-472312ab6b4b",
+        "start_date": "2023-08-09T14:13:59.239Z",
+        "end_date": "2023-08-10T05:09:51.101Z",
+        "created_at": "2023-08-09T23:06:48.144Z",
+        "updated_at": "2023-08-10T00:26:07.758Z",
+        "employee_id": "56d35af0-a160-4bec-b30d-ef18e76b64c5"
+      },
+      {
+        "id": "4b63026c-deb5-4755-af70-642f63a2fed1",
+        "start_date": "2023-08-09T18:43:11.779Z",
+        "end_date": "2023-08-10T02:19:33.299Z",
+        "created_at": "2023-08-09T13:17:01.128Z",
+        "updated_at": "2023-08-09T20:10:23.566Z",
+        "employee_id": "56d35af0-a160-4bec-b30d-ef18e76b64c5"
+      },
+      {
+        "id": "1f1387d9-eb23-4216-88d1-d552e6b8fdf3",
+        "start_date": "2023-08-10T06:06:19.385Z",
+        "end_date": "2023-08-10T00:06:28.032Z",
+        "created_at": "2023-08-10T07:02:56.340Z",
+        "updated_at": "2023-08-10T05:08:25.761Z",
+        "employee_id": "f83b5114-04e3-49c1-86be-60e46bec5551"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "c3704fdc-ef4a-4320-bf4b-c23dae8057ea",
+        "salary": 525,
+        "created_at": "2023-08-10T07:59:14.926Z",
+        "updated_at": "2023-08-10T03:20:35.066Z",
+        "employee_id": "2f4a2f3e-a637-463d-8f5f-557264ea466c"
+      },
+      {
+        "id": "e2997daa-9bb3-4f5a-b9fc-d4aa2e878d8d",
+        "salary": 51565,
+        "created_at": "2023-08-09T14:08:49.965Z",
+        "updated_at": "2023-08-09T16:43:46.542Z",
+        "employee_id": "fbec7bbf-5d1b-48cd-a7c6-6f38290e9b9e"
+      },
+      {
+        "id": "cde5f00e-41e7-40eb-941d-859ab2bc6c9c",
+        "salary": 17164,
+        "created_at": "2023-08-09T20:36:29.952Z",
+        "updated_at": "2023-08-09T13:42:01.596Z",
+        "employee_id": "56d35af0-a160-4bec-b30d-ef18e76b64c5"
+      },
+      {
+        "id": "707a9cab-4552-41fa-b4dd-368238267acc",
+        "salary": 34235,
+        "created_at": "2023-08-09T15:04:09.555Z",
+        "updated_at": "2023-08-09T21:25:09.385Z",
+        "employee_id": "9ee53de9-460b-4510-9a7b-9f4d5bd97b23"
+      },
+      {
+        "id": "4a62a9d4-9ce3-4c64-b5e9-55dd0a94a602",
+        "salary": 94480,
+        "created_at": "2023-08-10T02:44:01.621Z",
+        "updated_at": "2023-08-10T04:19:48.312Z",
+        "employee_id": "9ee53de9-460b-4510-9a7b-9f4d5bd97b23"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f9d5fc9c-d330-4949-b057-635f1e233084",
+        "email": "Kelsie_Macejkovic@yahoo.com",
+        "firstName": "Wilhelm",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10832054",
+        "tenantId": null
+      },
+      {
+        "reference": "f70fad51-cc85-4842-81cd-849ec20f34dd",
+        "email": "Josianne.Schneider17@hotmail.com",
+        "firstName": "Billy",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/840.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d48c1760-a300-4abf-80eb-98760516ce5e",
+        "email": "Frederik_Berge@yahoo.com",
+        "firstName": "Albina",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1011.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f34c5a8d-c648-43ac-9148-2633baa81e1c",
+        "email": "Nickolas_Olson-Haley@gmail.com",
+        "firstName": "Sharon",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58419236",
+        "tenantId": null
+      },
+      {
+        "reference": "fea9c5af-fe1e-404e-936d-6da51f944078",
+        "email": "Kasey.Bogisich@gmail.com",
+        "firstName": "Creola",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92910748",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "de038ccf-3517-4c3f-aabd-f61a4ef0999a",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "created_at": "2023-08-10T10:42:17.310Z",
+        "updated_at": "2023-08-09T22:45:32.339Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "46d07a14-8ade-48c8-b18e-17bae4ff28a3",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "created_at": "2023-08-09T14:39:39.767Z",
+        "updated_at": "2023-08-09T13:27:48.435Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e9c441d1-2ff6-4df0-a61b-a4b185045fc0",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "created_at": "2023-08-09T14:21:31.561Z",
+        "updated_at": "2023-08-09T15:52:15.047Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "caba7858-d79e-4243-8db9-a7057ddb6a13",
+        "first_name": "James",
+        "last_name": "Brown",
+        "created_at": "2023-08-10T06:07:08.910Z",
+        "updated_at": "2023-08-10T12:19:37.196Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f0ef5708-ea67-4e41-9590-b30eb046723f",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "created_at": "2023-08-09T23:35:14.951Z",
+        "updated_at": "2023-08-09T23:11:01.265Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "574f4127-72f2-4352-8ae0-8e3285f75ff7",
+        "start_date": "2023-08-09T12:44:38.589Z",
+        "end_date": "2023-08-10T11:28:47.595Z",
+        "created_at": "2023-08-09T12:40:01.148Z",
+        "updated_at": "2023-08-10T02:41:44.954Z",
+        "employee_id": "caba7858-d79e-4243-8db9-a7057ddb6a13"
+      },
+      {
+        "id": "139d4c88-7bf7-4f97-bd22-44d4b2f8fd13",
+        "start_date": "2023-08-10T11:50:28.232Z",
+        "end_date": "2023-08-09T12:35:33.436Z",
+        "created_at": "2023-08-10T07:17:46.080Z",
+        "updated_at": "2023-08-10T00:29:23.573Z",
+        "employee_id": "de038ccf-3517-4c3f-aabd-f61a4ef0999a"
+      },
+      {
+        "id": "f16881c6-b85a-47ef-8390-36dc10ee535d",
+        "start_date": "2023-08-10T10:20:28.065Z",
+        "end_date": "2023-08-10T05:18:52.305Z",
+        "created_at": "2023-08-09T23:26:32.875Z",
+        "updated_at": "2023-08-09T19:07:51.465Z",
+        "employee_id": "46d07a14-8ade-48c8-b18e-17bae4ff28a3"
+      },
+      {
+        "id": "aba5d396-ce26-4751-9c92-3c8a3ae4ccad",
+        "start_date": "2023-08-10T01:45:51.763Z",
+        "end_date": "2023-08-09T18:19:23.694Z",
+        "created_at": "2023-08-10T01:17:01.732Z",
+        "updated_at": "2023-08-09T18:59:36.317Z",
+        "employee_id": "f0ef5708-ea67-4e41-9590-b30eb046723f"
+      },
+      {
+        "id": "9797b60e-7ae5-46ac-8d54-6a1142d3c4fe",
+        "start_date": "2023-08-09T19:06:44.319Z",
+        "end_date": "2023-08-10T02:51:39.825Z",
+        "created_at": "2023-08-10T09:09:58.559Z",
+        "updated_at": "2023-08-09T14:43:19.639Z",
+        "employee_id": "f0ef5708-ea67-4e41-9590-b30eb046723f"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "550561e7-aa97-4e1a-b4f5-9223247d2d87",
+        "salary": 60640,
+        "created_at": "2023-08-10T06:23:18.629Z",
+        "updated_at": "2023-08-09T23:58:26.786Z",
+        "employee_id": "e9c441d1-2ff6-4df0-a61b-a4b185045fc0"
+      },
+      {
+        "id": "8e35d7fe-6a0d-44a4-a544-5edc36816a40",
+        "salary": 72431,
+        "created_at": "2023-08-10T08:08:45.518Z",
+        "updated_at": "2023-08-10T09:50:39.473Z",
+        "employee_id": "caba7858-d79e-4243-8db9-a7057ddb6a13"
+      },
+      {
+        "id": "a7af0480-9da2-45a9-b9b5-9cb742fccf00",
+        "salary": 22914,
+        "created_at": "2023-08-10T11:55:27.979Z",
+        "updated_at": "2023-08-09T18:05:45.443Z",
+        "employee_id": "46d07a14-8ade-48c8-b18e-17bae4ff28a3"
+      },
+      {
+        "id": "ee67f3d0-d7e1-4e83-a1ea-f51a02dda2a3",
+        "salary": 53048,
+        "created_at": "2023-08-09T17:41:54.993Z",
+        "updated_at": "2023-08-09T23:08:00.536Z",
+        "employee_id": "caba7858-d79e-4243-8db9-a7057ddb6a13"
+      },
+      {
+        "id": "d5ed3513-f794-426a-a00a-d82b572c6d32",
+        "salary": 74471,
+        "created_at": "2023-08-10T09:14:30.044Z",
+        "updated_at": "2023-08-09T13:11:26.175Z",
+        "employee_id": "f0ef5708-ea67-4e41-9590-b30eb046723f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6c2c943c-81d1-4eb4-a0ad-9350272e1efb",
+        "email": "Dustin.Langworth8@yahoo.com",
+        "firstName": "Maye",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/398.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ebea7ab2-69d3-479f-b45d-f1b37f650308",
+        "email": "Marshall.Baumbach61@yahoo.com",
+        "firstName": "Obie",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1054.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6ed5ada2-c6d2-466f-b92f-634c8aba5fb2",
+        "email": "Johnson.Lind-Nikolaus@yahoo.com",
+        "firstName": "Selina",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56769458",
+        "tenantId": null
+      },
+      {
+        "reference": "a93e948e-1982-4bf4-920e-c64de09c088f",
+        "email": "Mable_Strosin@hotmail.com",
+        "firstName": "Arnaldo",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/785.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3458430e-de7e-4afc-8746-1a35bc3e66f9",
+        "email": "Antone_Weimann@gmail.com",
+        "firstName": "Clemens",
+        "lastName": "McClure",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/563.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
